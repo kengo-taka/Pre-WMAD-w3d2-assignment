@@ -2,8 +2,9 @@
 
 let example = [1, 2, 3, 4, 'five', 6, 7];
 
-const logLength = function () {
-
+const logLength = function(x){
+  var arr = (x).length
+  console.log(arr);
 };
 
 logLength(example);

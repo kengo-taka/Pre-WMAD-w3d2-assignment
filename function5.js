@@ -2,7 +2,12 @@
 
 let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
-const addHooray = function () {
+const addHooray = function (arr) {
+
+  for ( x = 0; x < arr.length; x++) {
+    arr[x] += 'HOORAY'
+    console.log(arr[x]);
+  }
 
 };
 
